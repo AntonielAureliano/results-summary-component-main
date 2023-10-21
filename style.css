@@ -26,7 +26,7 @@
   --neutral-light-lavender: hsl(241, 100%, 89%);
   --neutral-dark-gray-blue: hsl(224, 30%, 27%);
 
-  --font-family-default: "Hanken Grotesk", sans-serif;
+  --font-family-default: "HankenGrotesk", sans-serif;
 
   --fw-regular: 500;
   --fw-bold: 700;
@@ -51,6 +51,7 @@ body {
 }
 
 .container {
+  border-radius: 2rem;
   display: flex;
   justify-content: center;
   max-width: 46rem;
@@ -65,11 +66,13 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding: 2rem 3rem;
+  max-width: 15.5rem;
+  padding: 2.5rem 3.75rem;
 }
 
 .resultado h2 {
   color: var(--neutral-light-lavender);
+  font-size: 1.5rem;
 }
 
 .resultado-pontuacao {
@@ -82,7 +85,8 @@ body {
 }
 
 .resultado h1 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+  font-weight: 700;
   color: var(--neutral-white);
   text-align: center;
 }
@@ -114,4 +118,26 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
   text-decoration: none;
+}
+
+/*------resumo-------*/
+
+.resumo {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 15.5rem;
+  padding: 2rem 3rem;
+}
+
+.resumo-titulo {
+  font-weight: 700;
+}
+
+.resumo-lista li {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 256px;
+  padding: 1rem;
 }
