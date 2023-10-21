@@ -52,22 +52,58 @@ body {
 
 .container {
   display: flex;
+  justify-content: center;
   max-width: 46rem;
+  margin: 11.25rem auto;
   padding: 2.5rem;
 }
 
-.flex-flow {
+.resultado {
+  align-items: center;
+  background-color: var(--g-light-slate-blue);
+  border-radius: 1.562rem;
   display: flex;
   flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 3rem;
 }
 
-.resultado {
-  background-color: var(--g-light-slate-blue);
+.resultado h2 {
+  color: var(--neutral-light-lavender);
+}
+
+.resultado-pontuacao {
+  background-color: var(--g-violet-blue);
+  border-radius: 50%;
+  color: var(--neutral-light-lavender);
+
+  padding: 3.5rem;
+  text-align: center;
+}
+
+.resultado h1 {
+  font-size: 1.5rem;
+  color: var(--neutral-white);
+  text-align: center;
 }
 
 .resultado span {
+  color: var(--neutral-white);
   font-size: 5rem;
   font-weight: var(--fw-black);
+}
+
+.resultado-mensagem {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 28.125rem;
+  margin-bottom: 2rem;
+}
+
+.resultado-mensagem p {
+  color: var(--neutral-light-lavender);
+  text-align: center;
 }
 
 .attribution {
