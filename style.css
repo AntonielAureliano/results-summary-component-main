@@ -5,6 +5,7 @@
   src: url("assets/fonts/HankenGrotesk-VariableFont_wght.ttf")
     format("truetype");
 }
+
 :root {
   --primary-light-red: hsl(0, 100%, 67%);
   --primary-orange-yellow: hsl(39, 100%, 56%);
@@ -130,14 +131,69 @@ body {
   padding: 2rem 3rem;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .resumo-titulo {
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
 .resumo-lista li {
+  border-radius: 0.625rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   list-style: none;
+  margin-bottom: 1rem;
   width: 256px;
-  padding: 1rem;
+  padding: 1rem 0.625rem 1rem 3rem;
+  position: relative;
+}
+
+.resumo-lista li:nth-child(1) {
+  background-color: #fff6f5;
+  color: #e27377;
+}
+.resumo-lista li:nth-child(1)::before {
+  content: url("./assets/images/icon-reaction.svg");
+  left: 1rem;
+  position: absolute;
+}
+.resumo-lista li:nth-child(2) {
+  background-color: #fffbf2;
+  color: #f6bb4b;
+}
+.resumo-lista li:nth-child(2)::before {
+  content: url("./assets/images/icon-memory.svg");
+  left: 1rem;
+  position: absolute;
+}
+.resumo-lista li:nth-child(3) {
+  background-color: #f2fafa;
+  color: #46cca8;
+}
+.resumo-lista li:nth-child(3)::before {
+  content: url("./assets/images/icon-verbal.svg");
+  left: 1rem;
+  position: absolute;
+}
+.resumo-lista li:nth-child(4) {
+  background-color: #f3f3fd;
+  color: #2c35b3;
+}
+.resumo-lista li:nth-child(4)::before {
+  content: url("./assets/images/icon-visual.svg");
+  left: 1rem;
+  position: absolute;
+}
+
+.resumo-lista-numero {
+  color: #979aa9;
+}
+
+.resumo-lista-numero span {
+  color: black;
+  font-weight: 700;
 }
