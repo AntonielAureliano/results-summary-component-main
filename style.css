@@ -155,8 +155,10 @@ ul {
 .resumo-lista li:nth-child(1) {
   background-color: #fff6f5;
   color: #e27377;
+  font-weight: 700;
 }
 .resumo-lista li:nth-child(1)::before {
+  bottom: 0.75rem;
   content: url("./assets/images/icon-reaction.svg");
   left: 1rem;
   position: absolute;
@@ -164,8 +166,10 @@ ul {
 .resumo-lista li:nth-child(2) {
   background-color: #fffbf2;
   color: #f6bb4b;
+  font-weight: 700;
 }
 .resumo-lista li:nth-child(2)::before {
+  bottom: 0.75rem;
   content: url("./assets/images/icon-memory.svg");
   left: 1rem;
   position: absolute;
@@ -173,8 +177,10 @@ ul {
 .resumo-lista li:nth-child(3) {
   background-color: #f2fafa;
   color: #46cca8;
+  font-weight: 700;
 }
 .resumo-lista li:nth-child(3)::before {
+  bottom: 0.75rem;
   content: url("./assets/images/icon-verbal.svg");
   left: 1rem;
   position: absolute;
@@ -182,8 +188,10 @@ ul {
 .resumo-lista li:nth-child(4) {
   background-color: #f3f3fd;
   color: #2c35b3;
+  font-weight: 700;
 }
 .resumo-lista li:nth-child(4)::before {
+  bottom: 0.75rem;
   content: url("./assets/images/icon-visual.svg");
   left: 1rem;
   position: absolute;
