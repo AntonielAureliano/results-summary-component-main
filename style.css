@@ -61,8 +61,8 @@ body {
   border-radius: 2rem;
   display: flex;
   justify-content: center;
-  max-width: 46rem;
-  margin: 11.25rem auto;
+  max-width: 50rem;
+  margin: 6.25rem auto;
   padding: 2.5rem;
 }
 
@@ -73,7 +73,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  max-width: 15.5rem;
+  max-width: 18.75rem;
   padding: 2.5rem 3.75rem;
 }
 
@@ -113,6 +113,7 @@ body {
 
 .resultado-mensagem p {
   color: var(--neutral-light-lavender);
+  max-width: 25ch;
   text-align: center;
 }
 
@@ -129,10 +130,11 @@ body {
 /*------resumo-------*/
 
 .resumo {
+  box-shadow: 10px 5px 5px black;
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  max-width: 15.5rem;
+  max-width: 18.75rem;
   padding: 2rem 3rem;
 }
 
@@ -219,4 +221,8 @@ ul {
   padding: 1rem 5rem;
   text-align: center;
   text-decoration: none;
+}
+
+.resumo-botao:hover {
+  background: var(--neutral-dark-gray-blue);
 }
