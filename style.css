@@ -31,6 +31,7 @@
   --neutral-white: hsl(0, 0%, 100%);
   --neutral-pale-blue: hsl(221, 100%, 96%);
   --neutral-light-lavender: hsl(241, 100%, 89%);
+  --neutral-light-shadow: hsl(225, 75%, 97%);
   --neutral-dark-gray-blue: hsl(224, 30%, 27%);
 
   --font-family-default: "HankenGrotesk", sans-serif;
@@ -74,7 +75,7 @@ body {
   flex-direction: column;
   gap: 2rem;
   max-width: 18.75rem;
-  padding: 2.5rem 3.75rem;
+  padding: 2.5rem 4.375rem;
 }
 
 .resultado h2 {
@@ -130,7 +131,8 @@ body {
 /*------resumo-------*/
 
 .resumo {
-  box-shadow: 10px 5px 5px black;
+  border-radius: 0 1.562rem 1.562rem 0;
+  box-shadow: 10px 10px 10px var(--neutral-light-shadow);
   display: flex;
   flex-direction: column;
   gap: 2rem;
