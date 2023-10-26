@@ -18,8 +18,14 @@
   --g-persian-blue: hsl(241, 72%, 46%, 0);
 
   --gradient-primary: linear-gradient(
-    var(--g-light-slate-blue),
-    var(--g-light-royal-blue)
+    0deg,
+    var(--g-light-royal-blue),
+    var(--g-light-slate-blue)
+  );
+  --gradient-secondary: linear-gradient(
+    0deg,
+    var(--g-persian-blue),
+    var(--g-violet-blue)
   );
 
   --neutral-white: hsl(0, 0%, 100%);
@@ -62,7 +68,7 @@ body {
 
 .resultado {
   align-items: center;
-  background-color: var(--g-light-slate-blue);
+  background: var(--gradient-primary);
   border-radius: 1.562rem;
   display: flex;
   flex-direction: column;
@@ -77,10 +83,9 @@ body {
 }
 
 .resultado-pontuacao {
-  background-color: var(--g-violet-blue);
+  background: var(--gradient-secondary);
   border-radius: 50%;
   color: var(--neutral-light-lavender);
-
   padding: 3.5rem;
   text-align: center;
 }
@@ -204,4 +209,14 @@ ul {
 .resumo-lista-numero span {
   color: black;
   font-weight: 700;
+}
+
+.resumo-botao {
+  background: linear-gradient(0deg, #2c35b3, #7d41ff);
+  border-radius: 2rem;
+  color: var(--neutral-pale-blue);
+  display: block;
+  padding: 1rem 5rem;
+  text-align: center;
+  text-decoration: none;
 }
