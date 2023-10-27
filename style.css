@@ -136,7 +136,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  max-width: 18.75rem;
+  max-width: 20rem;
   padding: 2rem 3rem;
 }
 
