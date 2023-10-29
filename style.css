@@ -228,3 +228,19 @@ ul {
 .resumo-botao:hover {
   background: var(--neutral-dark-gray-blue);
 }
+
+@media (max-width: 480px) {
+  .container {
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .resultado {
+    padding: 1.875rem 3.125rem;
+  }
+  .resumo {
+    padding: 1.875rem 1.562rem;
+    box-shadow: 0px 0px;
+  }
+}
