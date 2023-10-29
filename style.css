@@ -237,7 +237,10 @@ ul {
     padding: 0;
   }
   .resultado {
-    padding: 1.875rem 3.125rem;
+    padding: 1rem 3.125rem;
+  }
+  .resultado-mensagem p {
+    max-width: 30ch;
   }
   .resumo {
     padding: 1.875rem 1.562rem;
