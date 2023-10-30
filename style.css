@@ -132,7 +132,7 @@ body {
 
 .resumo {
   border-radius: 0 1.562rem 1.562rem 0;
-  box-shadow: 10px 10px 10px var(--neutral-light-shadow);
+  box-shadow: 10px 10px 30px var(--neutral-light-shadow);
   display: flex;
   flex-direction: column;
   gap: 2rem;
