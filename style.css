@@ -216,7 +216,7 @@ ul {
 }
 
 .resumo-botao {
-  background: linear-gradient(0deg, #2c35b3, #7d41ff);
+  background: var(--neutral-dark-gray-blue);
   border-radius: 2rem;
   color: var(--neutral-pale-blue);
   display: block;
@@ -226,7 +226,7 @@ ul {
 }
 
 .resumo-botao:hover {
-  background: var(--neutral-dark-gray-blue);
+  background: linear-gradient(0deg, #2c35b3, #7d41ff);
 }
 
 @media (max-width: 480px) {
